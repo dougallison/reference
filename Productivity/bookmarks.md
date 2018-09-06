@@ -8,6 +8,7 @@
 
 ## Software
 * [todoist](https://todoist.com/)
+    * [Getting Started Guide](https://todoist.com/guide/getting-started)
 * [PomoDone](https://pomodoneapp.com/)
 * [FocusBoost](https://www.focusboosterapp.com/)
 * [WeekPlan](https://weekplan.net/)

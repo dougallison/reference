@@ -1,6 +1,7 @@
 # Bookmarks
 
-[Official Documentation](https://www.python.org/)
+* [Official Documentation](https://www.python.org/)
+* [Python Enhancement Proposals](https://www.python.org/dev/peps/)
 
 ## Language
 [dunder main](https://docs.python.org/3/library/__main__.html)

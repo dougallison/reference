@@ -4,6 +4,8 @@
 * `//`: integer division
 * `%`: modulus division
 
+---
+
 ## Scalar Types and Values
 
 * `int`: arbitrary precision integers
@@ -14,6 +16,8 @@
 * `None`: the null object
 * `bool`: boolean logical values
 
+---
+
 ## Relational Operators
 
 * `==`: value equality/equivalence
@@ -22,3 +26,53 @@
 * `>`: greater-than
 * `<=`: less-than or equal to
 * `>=`: greater-than or equal to
+
+---
+
+## Strings
+
+* `str`: immutable sequences of Unicode codepoints
+
+* Multiline strings are delimited by 3 quote characters:
+```
+"""This is
+    a multiline
+    string"""
+```
+
+* `\n`: universal newlines 
+    * [PEP 278](https://www.python.org/dev/peps/pep-0278/)
+
+* Raw strings are prefixed with `r` and don't require escape sequences:
+```
+path=r`c:\home\some\long\path'
+```
+
+---
+
+## Bytes
+
+* Immutable sequences of byes
+* `b'data'`
+
+---
+
+## Lists
+
+* Mutable sequences of objects
+* List literals are delimited by square brackets and list items are comma separarated: 
+    * `[a, b, c, d]`
+* List indexes are zero based
+
+---
+
+## Dictionairies
+
+* Mutable mappings of keys to values
+* Dictionaries are delimited by curly braces
+* Each key/value is separated by a comma
+* Each key is separated from the value by a colon
+
+```
+{k1: v1, k2: v2, ...}
+```

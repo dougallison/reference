@@ -3,7 +3,7 @@
 * `/`: floating point division
 * `//`: integer division
 * `%`: modulus division
-
+* `is`: checks for equality of identity - do two references refer to the same object?
 ---
 
 ## Scalar Types and Values

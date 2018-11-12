@@ -1,9 +1,28 @@
 ## Operators
 
+* `*`: multiplication
 * `/`: floating point division
 * `//`: integer division
 * `%`: modulus division
 * `is`: checks for equality of identity - do two references refer to the same object?
+
+Integer division (the `//` operator) always moves left on the number line:
+
+```
+7 / 4 = 1.75
+7 // 4 = 1
+
+-6 / 4 = -1.5
+-6 // 4 = -2
+```
+
+The `*` operator works on strings, performing repetition.
+
+```
+'python' * 3
+pythonpythonpython
+```
+
 ---
 
 ## Scalar Types and Values
@@ -75,4 +94,23 @@ path=r`c:\home\some\long\path'
 
 ```
 {k1: v1, k2: v2, ...}
+```
+
+---
+
+## Type Converter Functions
+
+* `int`: for floating point numbers, it *discards* the decimal portion and moves *towards* zero on the number line
+* `float`
+* `str`
+
+```
+int(3.14)
+3
+
+int(3.999)
+3
+
+int(3.0)
+3
 ```
